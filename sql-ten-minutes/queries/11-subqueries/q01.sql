@@ -1,3 +1,4 @@
+/* This would normally be done using joins */
 select cust_id
   from Orders
  where order_num in

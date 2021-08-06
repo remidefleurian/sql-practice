@@ -1,3 +1,4 @@
+/* This would normally be done using joins */
 select cust_email
   from Customers
  where cust_id in
