@@ -1,3 +1,4 @@
+/* This would normally be done using joins */
 select cust_id,
        (select sum(quantity * item_price)
        from OrderItems
